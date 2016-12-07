@@ -1,0 +1,50 @@
+body {
+  background-color: gray;
+  font: 10px sans-serif;
+  font-style: white;
+}
+
+
+h1 { 
+	color: #FFF; 
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.bar {
+  fill: white;
+}
+
+.bar:hover {
+  fill: black ;
+}
+
+.d3-tip.n {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background-color: #FFF;
+  color: #000;
+  border-radius: 10px;
+  border: 2px gray solid;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px white solid;
+  font: 12px sans-serif;
+}
+
+td {
+  border: 1px white solid;
+  padding: 5px;
+}
