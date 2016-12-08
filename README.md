@@ -18,11 +18,14 @@ index.html          — executable html <br/>
 
 # howto
 
-1. execut collectData.sh	<br/>
+1. create a link and the variable „-s“ to use the command „airport -s“ <br/>
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport/usr/local/bin/airport <br/>
 
-2. open index.html <br/>
+2. execut collectData.sh	<br/>
 
-3. see the result<br/>
+3. open index.html <br/>
 
-4. enjoy and have fun (feel free to extend the project)<br/>
+4. see the result<br/>
+
+5. enjoy and have fun (feel free to extend the project)<br/>
 
